@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="de32dff4-5879-47dc-9b67-01d8b80b991a" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Test1/.idea/vcs.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -165,7 +164,7 @@
       <option name="presentableId" value="Default" />
       <updated>1488265725069</updated>
       <workItem from="1488265728264" duration="415000" />
-      <workItem from="1488266718292" duration="1317000" />
+      <workItem from="1488266718292" duration="1587000" />
     </task>
     <task id="LOCAL-00001" summary="hadasa">
       <created>1488267195049</created>
@@ -185,7 +184,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1732000" />
+    <option name="totallyTimeSpent" value="2002000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
