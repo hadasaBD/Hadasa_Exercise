@@ -2,12 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="de32dff4-5879-47dc-9b67-01d8b80b991a" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Exercise1_Hadasa/test/com/company/FileOperationsTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Exercise1_Hadasa/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../Exercise1_Hadasa/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Exercise1_Hadasa/src/com/company/Action.java" afterPath="$PROJECT_DIR$/../Exercise1_Hadasa/src/com/company/Action.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Exercise1_Hadasa/src/com/company/Encryption.java" afterPath="$PROJECT_DIR$/../Exercise1_Hadasa/src/com/company/Encryption.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Exercise1_Hadasa/src/com/company/FileOperations.java" afterPath="$PROJECT_DIR$/../Exercise1_Hadasa/src/com/company/FileOperations.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Exercise1_Hadasa/src/com/company/Menu.java" afterPath="$PROJECT_DIR$/../Exercise1_Hadasa/src/com/company/Menu.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/company/Main.java" afterPath="$PROJECT_DIR$/src/com/company/Main.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -60,8 +55,8 @@
       <file leaf-file-name="Main.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/company/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="442">
-              <caret line="26" column="10" lean-forward="true" selection-start-line="9" selection-start-column="7" selection-end-line="26" selection-end-column="10" />
+            <state relative-caret-position="493">
+              <caret line="29" column="8" lean-forward="false" selection-start-line="29" selection-start-column="8" selection-end-line="29" selection-end-column="8" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -154,7 +149,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/com/company/Main.java" />
         <option value="$PROJECT_DIR$/src/com/company/Testing.java" />
         <option value="$PROJECT_DIR$/test/com/company/TestingTest.java" />
         <option value="$PROJECT_DIR$/src/com/company/Encryption.java" />
@@ -163,6 +157,7 @@
         <option value="$PROJECT_DIR$/src/com/company/Action.java" />
         <option value="$PROJECT_DIR$/src/com/company/Menu.java" />
         <option value="$PROJECT_DIR$/test/com/company/MenuTest.java" />
+        <option value="$PROJECT_DIR$/src/com/company/Main.java" />
       </list>
     </option>
   </component>
@@ -690,7 +685,7 @@
       <workItem from="1488360708843" duration="952000" />
       <workItem from="1489473377947" duration="8890000" />
       <workItem from="1489500981806" duration="2502000" />
-      <workItem from="1489560817561" duration="3544000" />
+      <workItem from="1489560817561" duration="4161000" />
     </task>
     <task id="LOCAL-00001" summary="hadasa">
       <created>1488267195049</created>
@@ -730,7 +725,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="37136000" />
+    <option name="totallyTimeSpent" value="37753000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="930" y="0" width="931" height="1040" extended-state="0" />
@@ -1101,8 +1096,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="26" column="10" lean-forward="true" selection-start-line="9" selection-start-column="7" selection-end-line="26" selection-end-column="10" />
+        <state relative-caret-position="493">
+          <caret line="29" column="8" lean-forward="false" selection-start-line="29" selection-start-column="8" selection-end-line="29" selection-end-column="8" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
