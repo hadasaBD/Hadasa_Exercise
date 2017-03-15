@@ -5,10 +5,11 @@ import java.io.File;
 /**
  * Created by hackeru on 2/28/2017.
  */
-public class Encryption extends Action {
+public class Encryption extends FileOperations {
 
-    public  Encryption() {
+    public Encryption(String path) {
 
+            super(path);
             this.operetion(this.file);
 
     }

@@ -5,22 +5,15 @@ import java.io.File;
 /**
  * Created by hackeru on 2/28/2017.
  */
-public  class FileOperations {
+public abstract class FileOperations {
 
-
-
-    public File file;
+     public File file;
    //  public String path;
 
-    public File getFile() {
-        return file;
-    }
-
-    public FileOperations(String path) {// ניתן לבנות בנאי את לא ליצור מופע ממנו אלא רק הבנים ישתמשו בנאי האבא הזה
+    public FileOperations(String path) {//בנאי
         //  this.path = path;
         if (pathValid(path))
             this.file = new File(path);
-
     }
 
     public static boolean pathValid (String s){
@@ -44,7 +37,7 @@ public  class FileOperations {
         }
 
    }
-
+   public  abstract  void operetion(File file);
 
 }
 

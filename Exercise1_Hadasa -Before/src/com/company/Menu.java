@@ -9,39 +9,40 @@ import java.io.InputStreamReader;
  * Created by hackeru on 2/28/2017.
  */
 public class Menu {
-
-    FileOperations fileOperations = new FileOperations();
+    FileOperations myFileOperations = new FileOperations();
+    Encryption encryptFile = new Encryption();
+    Decryption decryptFile = new Decryption();
+    String filePathString;
+    File filePath;
 
     public Menu() {
         mainMenu();
     }
 
-    public static void mainMenu() {
+    public  void mainMenu() {
 
-        //path_inputTests();
         printMenu();
-
         String input = readInput();
+        myOption(input);
+
+    }
+    public void myOption(String input){
         if (input.length() != 0) {
             switch (input) {
                 case "1":
                     //לקלוט נתיב לקובץ
                     //לבנות מופע למחלקה
                     //להפעיל פונקציה במחלקה Encryption
-                    //System.out.println(" Input the path to the file ");
-                    //String input1 = readInput();
-                    path_inputTests();
-
-                    //Encryption encryption = new Encryption(this.file);
+                    System.out.println(" Input the path to the file ");
+                    String input1 = readInput();
+                    Encryption encryption = new Encryption(input1);
                     break;
                 case "2":
                     //לקלוט נתיב לקובץ
                     //לבנות מופע למחלקה
                     //להפעיל פונקציה במחלקה Decryption
-                   // System.out.println(" Input the path to the file ");
+                    System.out.println(" Input the path to the file ");
                     String input2 = readInput();
-
-                    path_inputTests();
                     Decryption decryption = new Decryption(input2);
                     break;
                 case "0":
@@ -74,10 +75,15 @@ public class Menu {
         System.out.println("0. exit");
         System.out.println("your choice: ");
     }
-    public static void path_inputTests(){//הפונקציה בודקת אם נתיב הקובץ חוקי אם כן היא מכינסה אותו לשדה קובץ של המחלקה "פעולות קבצים"
-        System.out.println(" Input the path to the file ");
-        String path = readInput();
-        FileOperations fileOperations = new FileOperations(path);
+    // פונקציה שקולטת את הנתיב מהמשתמש
+    public  void inputString(){
+        System.out.println("Enter a file path:");
+        filePathString = readInput();
+        while (!(myFileOperations.pathValid(filePathString))){
+            filePathString = readInput();
+        }
+        filePath = new File(filePathString);
+        // return filePathString;
     }
 
 }
